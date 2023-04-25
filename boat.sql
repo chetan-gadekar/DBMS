@@ -1,4 +1,4 @@
- 
+/* here we update the rating */  
 Delimiter //
 create procedure up_rating1(in s int)
 begin
