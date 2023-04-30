@@ -103,8 +103,8 @@ Query OK, 0 rows affected, 1 warning (0.01 sec)
 mysql> select * from dump_info;
 Empty set (0.00 sec)
 
-mysql> delete from info where eid=10;
-Query OK, 1 row affected (0.01 sec)
+mysql> delete from info;
+Query OK, 9 rows affected (0.00 sec)
 
 mysql> select * from dump_info;
 +------+----------+---------+
@@ -123,18 +123,5 @@ mysql> select * from dump_info;
 9 rows in set (0.00 sec)
 
 mysql> select * from info;
-+-----+----------+---------+
-| eid | ename    | esal    |
-+-----+----------+---------+
-|   1 | chetan   |  345.34 |
-|   2 | om       | 2323.43 |
-|   3 | tejas    | 3445.45 |
-|   4 | kaushal  |     456 |
-|   5 | ysah     | 2334.53 |
-|   6 | manoj    |    2345 |
-|   7 | tushar   |     345 |
-|   8 | abhi     | 2345.65 |
-|   9 | shunbham |    1094 |
-+-----+----------+---------+
-9 rows in set (0.00 sec)
+Empty set (0.00 sec)
 */
